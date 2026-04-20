@@ -5,4 +5,5 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="FSharp.DI/FSharp.DI.fsproj" />
+  <Project Path="samples/LazyLoggerSample/LazyLoggerSample.fsproj" />
 </Solution>

@@ -11,6 +11,7 @@
     <Authors>Faisal Waris</Authors>
     <Copyright>Copyright (c) 2026 Faisal Waris</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <Description>Lightweight functional helpers for Microsoft dependency injection and logging in F#.</Description>
     <PackageTags>fsharp;dependency-injection;logging;dotnet</PackageTags>
     <IncludeSymbols>true</IncludeSymbols>
@@ -20,6 +21,10 @@
 
   <ItemGroup>
     <Compile Include="DI.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="\" Link="README.md" />
   </ItemGroup>
 
   <ItemGroup>
